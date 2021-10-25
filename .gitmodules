@@ -1,3 +1,15 @@
 [submodule "start/vim-vue"]
 	path = start/vim-vue
 	url = https://github.com/posva/vim-vue
+[submodule "start/nerdtree"]
+	path = start/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "start/vim-javascript"]
+	path = start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
+[submodule "start/editorconfig-vim"]
+	path = start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "start/vim-css3-syntax"]
+	path = start/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax
