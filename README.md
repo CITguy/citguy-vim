@@ -7,6 +7,15 @@
 * vim-javascript (pangloss/vim-javascript)
 * vim-vue (posva/vim-vue)
 
+### Updating Included Plugins
+```sh
+$ git submodule update --recursive [--init]
+```
+* `--init` should only be necessary if the working trees of submodules haven't been populated
+    * Typically needed after the first clone of the project.
+    * Potentially useful when switching between branches with differing submodules.
+
+
 
 ## Consider
 * emmet-vim (mattn/emmet-vim)
