@@ -7,13 +7,24 @@
 * vim-javascript (pangloss/vim-javascript)
 * vim-vue (posva/vim-vue)
 
+### Installing
+
+```sh
+$ git clone https://github.com/CITguy/citguy-vim.git --recurse-submodules
+```
+_(`--recurse-submodules` will initialize the working directories of configured submodules)_
+
+If you've already cloned the project, but forgot to use `--recurse-submodules`, run the following:
+
+```sh
+$ git submodule update --recursive --init
+```
+
+
 ### Updating Included Plugins
 ```sh
-$ git submodule update --recursive [--init]
+$ git submodule update --recursive
 ```
-* `--init` should only be necessary if the working trees of submodules haven't been populated
-    * Typically needed after the first clone of the project.
-    * Potentially useful when switching between branches with differing submodules.
 
 
 
