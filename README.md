@@ -1,13 +1,4 @@
-# Plugins
-
-## Installed
-* editorconfig-vim (editorconfig/editorconfig-vim)
-* nerdtree (scrooloose/nerdtree)
-* vim-css3-syntax (hail2u/vim-css3-syntax)
-* vim-javascript (pangloss/vim-javascript)
-* vim-vue (posva/vim-vue)
-
-### Installing
+## Installing
 
 ```sh
 $ git clone https://github.com/CITguy/citguy-vim.git --recurse-submodules
@@ -20,15 +11,23 @@ If you've already cloned the project, but forgot to use `--recurse-submodules`, 
 $ git submodule update --recursive --init
 ```
 
-
-### Updating Included Plugins
+## Updating Included Plugins
 ```sh
 $ git submodule update --recursive
 ```
 
 
 
-## Consider
+## Plugins
+
+### Installed
+* editorconfig-vim (editorconfig/editorconfig-vim)
+* nerdtree (scrooloose/nerdtree)
+* vim-css3-syntax (hail2u/vim-css3-syntax)
+* vim-javascript (pangloss/vim-javascript)
+* vim-vue (posva/vim-vue)
+
+### Consider
 * emmet-vim (mattn/emmet-vim)
 * vim-ember-hbs (joukevandermaas/vim-ember-hbs)
 * vim-fugitive (tpope/vim-fugitive)
