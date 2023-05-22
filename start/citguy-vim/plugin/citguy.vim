@@ -206,3 +206,23 @@ inoremap <C-U> <C-G>u<C-U>
 
 
 # set omnifunc=syntaxcomplete#Complete
+
+
+# ==============================================================================
+# Included Plugin Configs
+# ==============================================================================
+# NERDTree
+nmap <Leader>n :NERDTreeToggle<CR>
+
+g:NERDTreeCascadeOpenSingleChildDir = 1 # expand lone child when expanding parent
+g:NERDTreeCascadeSingleChildDir = 0 # all dirs on separate lines
+g:NERDTreeCaseSensitiveSort = 1 # caps before lowercase
+#g:NERDTreeShowBookmarks = 0
+#g:NERDTreeShowFiles = 1
+#g:NERDTreeShowHidden = 0
+#g:NERDTreeShowLineNumbers = 0
+#g:NERDTreeSortOrder = ['\/$', '*', '\.swp$', '\.bak$', '\~$']
+#g:NERDTreeWinPos = 'left'
+#g:NERDTreeWinSize = 31
+g:NERDTreeMinimalMenu = 1 # compact, single-line menu
+g:NERDTreeAutoDeleteBuffer = 1 # delete buffer when removing/renaming a file using NERDTree
